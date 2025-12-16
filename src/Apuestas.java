@@ -9,7 +9,7 @@ import javax.swing.WindowConstants;
  * and open the template in the editor.
  */
 
-public class Apuestas extends javax.swing.JFrame {
+public class Apuestas extends javax.swing.JFrame { /* Cambiamos de nombre la clase y la renombramos Apuestas.*/
 
    
     public Apuestas() 
