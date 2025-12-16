@@ -1,5 +1,5 @@
 
-import javax.swing.DefaultListModel;
+import javax.swing.DefaultListModel; /*Esta sección es de importación de utilidades q después resulta útil a la hora de trabajar con nuestro código*/
 import javax.swing.JDialog;
 import javax.swing.WindowConstants;
 
@@ -12,7 +12,7 @@ import javax.swing.WindowConstants;
 public class Apuestas extends javax.swing.JFrame { /* Cambiamos de nombre la clase y la renombramos Apuestas.*/
 
    
-    public Apuestas() 
+    public Apuestas() /*función*/
     {
         initComponents();
         this.setResizable(Boolean.FALSE);
@@ -141,7 +141,7 @@ public class Apuestas extends javax.swing.JFrame { /* Cambiamos de nombre la cla
     }//GEN-LAST:event_bResetearActionPerformed
 
    
-    public int cualquiera(int n1, int n2)
+    public int cualquiera(int n1, int n2)/*Función que recibe dos números enteros como parámetros*/
     {
         return (int)Math.floor((Math.random()*(n2-n1+1) + n1));
     }
@@ -153,7 +153,7 @@ public class Apuestas extends javax.swing.JFrame { /* Cambiamos de nombre la cla
         {
             String partidoresuelto = this.listaQuiniela.getModel().getElementAt(i).toString();
             
-            switch( cualquiera(0,2) )
+            switch( cualquiera(0,2) )/*Utilizamos un switch para los distintos casos*/
             {
                 case 0:
                     partidoresuelto += " -> 1";
@@ -187,7 +187,7 @@ public class Apuestas extends javax.swing.JFrame { /* Cambiamos de nombre la cla
     }
     
   
-    public void borraPartido(int indice)
+    public void borraPartido(int indice)/*Función para borrar partido*/
     {
         DefaultListModel modelonuevoquiniela = new DefaultListModel();
         DefaultListModel modelonuevoresultados = new DefaultListModel();
