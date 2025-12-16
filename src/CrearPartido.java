@@ -1,5 +1,5 @@
 
-import java.awt.event.KeyEvent;
+import java.awt.event.KeyEvent;/*Importación de utilidades de java*/
 
 
 
@@ -89,7 +89,7 @@ public class CrearPartido extends javax.swing.JFrame /*Renombramos la clase con 
     }//GEN-LAST:event_tPartidoKeyPressed
 
     
-    public static void main(String args[]) {
+    public static void main(String args[]) { /*Función principal en la que llamamos a las demás funciones*/
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
