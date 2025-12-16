@@ -3,7 +3,7 @@ import java.awt.event.KeyEvent;
 
 
 
-public class CrearPartido extends javax.swing.JFrame
+public class CrearPartido extends javax.swing.JFrame /*Renombramos la clase con nuevo nombre CrearPartido*/
 {
    
     
